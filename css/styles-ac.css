@@ -1,0 +1,72 @@
+/* According to Evaluation Criteria*/
+#ifact{
+    font-style: italic;
+    margin-top: 5px;
+}
+span{
+    font-weight: bold;
+}
+ul {
+    list-style:none;
+    background-color: lightgreen;
+    padding-left: 0;
+  }
+.bigb{
+    border: 1px solid gray;
+    width: 310px;
+    box-shadow: 2px 4px 5px purple;
+    margin-bottom: 10px;
+}
+.smallb{
+    border: 1px dotted skyblue;
+    width:298px;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.sp-bg{
+    background-color: bisque;
+    width: 298px;
+    word-break: break-all;
+}
+p,span{
+    width: 300px;
+}
+img{
+    width: 300px;
+}
+/*Others: color, more styles*/
+div{
+    background-color: orange;
+}
+h3{
+    background-color:black;
+    color: white;
+    margin-right: 5px;
+}
+h3{
+    text-align: center;
+}
+h3,img{
+    margin-left: 5px;
+}
+ul+p{
+    margin-bottom: 5px;
+}
+p:hover,span:hover{
+    color:purple;
+}
+.hoverimg:hover{
+    width: 300px;
+    height: 168px;
+    background-image: url("https://i.postimg.cc/PxgPphWx/wb-300px.jpg")
+}
+ul:hover{
+    font-weight: bolder;
+}
+/* */
